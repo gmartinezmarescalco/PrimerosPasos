@@ -1,4 +1,4 @@
-# 1.
+# 1. Descarga la imagen 'ubuntu y comprueba que está en tu equipo
 
 Para descargar la imagen se usa empleo de: **"docker run"**. Además se puede utilizar el parámetro **"-it"** para interactuar con la terminal y **"--name"** para asignar un nombre al contenedor y **“bash”** para utilizar comandos
 
@@ -8,7 +8,7 @@ Y para comprobar que se ha descargado la imagen se utiliza **"images"**
 
     docker images
 
-# 2.
+# 2. Crea un contenedor sin ponerle nombre. ¿está arrancado? Obtén el nombre
 
 Se emplea el comando **“run”** sin utilizar el parámetro **“--name”** 
 
