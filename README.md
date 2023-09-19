@@ -14,6 +14,10 @@ Se emplea el comando **“run”** sin utilizar el parámetro **“--name”**
 
     docker run -it ubuntu bash
 
+Se obtiene el nombre usando **"ps -a"**
+
+    docker ps -a
+
 ## 3. Crea un contenedor con el nombre 'ubu1'. ¿Como puedes acceder a él?
 
 Con el parámetro **“--name”** se le asigna el nombre **"ubu1"**
@@ -24,7 +28,7 @@ Para acceder al contenedor se utiliza el comando **“exec”**
 
     docker exec -it ubu1 bash
 
-## 4.Comprueba que ip tiene y si puedes hacer un ping a google.com
+## 4. Comprueba que ip tiene y si puedes hacer un ping a google.com
 
 Por defecto no se puede. Hay que instalar el paquete **“net-tools”**. Se puede hacer utilizado los siguientes comandos:
 
